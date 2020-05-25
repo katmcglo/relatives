@@ -1,2 +1,6 @@
-<h1>Pages#home</h1>
+<h1>Relatives</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+<%= simple_form_for [@placeholder, @another_placeholder] do |f| %>
+  <%= f.input :content %>
+  <%= f.submit "Submit review", class: "btn btn-primary" %>
+<% end %>
