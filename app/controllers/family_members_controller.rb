@@ -15,7 +15,7 @@ class FamilyMembersController < ApplicationController
   end
   
   def create
-    @family_member = FamilyMember.new(params.require(:family_member).permit(:name, :age, :kinship, :description, :image))
+    @family_member = FamilyMember.new(params.require(:family_member).permit(:name, :age, :city, :kinship, :description, :image))
     authorize @family_member
     @family_member.user = current_user
     if @family_member.save!
