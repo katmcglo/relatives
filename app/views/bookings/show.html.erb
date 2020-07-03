@@ -2,9 +2,10 @@
   <div class="row justify-content-center" style="margin-top: 100px;">
     <div class="card p-4 card-confirm">
       <h1>Booking confirmation</h1>
-      <h6>You have a meeting between <%=@booking.start_date%> and <%= @booking.end_date%> with <strong><%= @booking.family_member.name %></strong></h6>
+      <h8>You have a meeting between <%=@booking.start_date%> and <%= @booking.end_date%> with <strong><%= @booking.family_member.name %> </strong></h8>
+      <h6>Have a great time!</h6>
       <div class="row justify-content-end mt-1">
-        <div class="btn btn-relatives btn-sm">To Dashboard</div>
+        <%= link_to "Back to home", "/", class: "btn btn-relatives btn-sm" %>
       </div>
     </div>
   </div>
