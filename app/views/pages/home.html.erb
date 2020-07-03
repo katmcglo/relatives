@@ -7,29 +7,6 @@
   </div>
 </div>
 
-
-<div class="search-bar d-flex align-items-center justify-content-center" id="homepage-box" style="z-index: 1; margin-left: 60px;">
-  <div class="form-group row">
-    <%= form_tag family_members_path, method: :get do %>
-    <%= label :kinship, 'Find' %>
-    <%= select_tag :kinship, raw(
-      "<option value='Grandma'>Grandmas</option>
-        <option value='Grandpa'>Grandpas</option>
-        <option value='Uncle'>Uncles</option>
-        <option value='Aunt'>Aunts</option>
-        <option value='Cousin'>Cousins</option>
-        <option value='Brother'>Brothers</option>
-        <option value='Sister'>Sisters</option>
-        <option value='Father'>Fathers</option>
-        <option value='Mother'>Mothers</option>"
-      ) %>
-      <%= label :query, 'in' %>
-      <%= text_field_tag :query %>
-      <%= submit_tag("Search!") %>
-    <% end %>
-  </div>
-</div>
-
 <div class="landing_headers"><h2>Rent the perfect Relative!</h2></div>
 
 
