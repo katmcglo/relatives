@@ -1,4 +1,16 @@
-<div class="card-trip">
+<div class="container justify-content-center card-holder">
+  <div class="row align-items-center justify-content-center" style="margin-top: 10vh;">
+    <div class="card p-4" style="18vw">
+      <h1>Booking confirmation</h1>
+      <h6>You have a meeting between <%=@booking.start_date%> and <%= @booking.end_date%> with <strong><%= @booking.family_member.name %></strong></h6>
+    </div>
+  </div>
+</div>
+    
+    
+
+  <!--
+  <div class="card-trip">
   <div class="flex-container">
   <%= image_tag "family_booking_confirmation.jpg", alt: "alttext", class: "family-image" %>
     <div class="flex-item">
@@ -8,6 +20,8 @@
     </div>
   </div>
 </div>
+
+
 
 <div class="card-trip">
   <div class="flex-container">
