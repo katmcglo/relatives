@@ -7,19 +7,6 @@ body {
  background: white;
 }
 
-.nav-elements {
-  background: $light-green;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-}
-
 #homepage-box {
   justify-content: center;
 }
@@ -69,7 +56,6 @@ body {
 //  position: relative;
 // }
 
-// banner
 .banner {
   background-size: cover;
   background-position: center;
