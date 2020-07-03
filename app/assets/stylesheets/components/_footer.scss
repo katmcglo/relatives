@@ -1,6 +1,13 @@
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
   margin-top: 18px;
 }
+
 .icon {
   background-color: lightgrey;
 }

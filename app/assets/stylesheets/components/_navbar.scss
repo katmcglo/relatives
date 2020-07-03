@@ -1,8 +1,8 @@
 .navbar-lewagon {
   justify-content: space-between;
-  // background: #7B287D;
   background-color: transparent;
   transition: 0.5s background-color ease;
+  height: 50px;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -15,17 +15,14 @@
 
 .nav-text {
   font-family: 'Lobster', cursive;
-  color: lightgrey;
+  color: black;
   letter-spacing: 3px;
-    box-shadow: 1px;
+  box-shadow: 1px;
+  font-size: 17px;
 }
 
 .navbar {
   position: sticky;
   top: 0;
   z-index: 2;
-}
-
-.navbar-lewagon-white {
-  background-color: white;
 }
