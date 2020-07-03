@@ -1,33 +1,11 @@
-<div class="container justify-content-center card-holder">
-  <div class="row align-items-center justify-content-center" style="margin-top: 10vh;">
-    <div class="card p-4" style="18vw">
+<div class="container justify-content-center">
+  <div class="row justify-content-center" style="margin-top: 100px;">
+    <div class="card p-4 card-confirm">
       <h1>Booking confirmation</h1>
       <h6>You have a meeting between <%=@booking.start_date%> and <%= @booking.end_date%> with <strong><%= @booking.family_member.name %></strong></h6>
+      <div class="row justify-content-end mt-1">
+        <div class="btn btn-ghost btn-sm">To Dashboard</div>
+      </div>
     </div>
   </div>
 </div>
-    
-    
-
-  <!--
-  <div class="card-trip">
-  <div class="flex-container">
-  <%= image_tag "family_booking_confirmation.jpg", alt: "alttext", class: "family-image" %>
-    <div class="flex-item">
-      <h1>Booking confirmation</h1>
-      <h6>You have a meeting between <%=@booking.start_date%> and <%= @booking.end_date%> with <strong><%= @booking.family_member.name %></strong></h6>
-      <h8>Enjoy your time!</h8>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="card-trip">
-  <div class="flex-container">
-    <div class="flex-item">
-
-    </div>
-  </div>
-</div>
-
