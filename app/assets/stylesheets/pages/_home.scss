@@ -7,10 +7,6 @@ body {
  background: white;
 }
 
-#homepage-box {
-  justify-content: center;
-}
-
 #featured-relatives {
   width: 100%;
   padding: 30px 0px 30px;
@@ -106,14 +102,14 @@ body {
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 

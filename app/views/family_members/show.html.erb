@@ -6,8 +6,8 @@
         <p><%= @family_member.age %></p>
         <p><%= @family_member.kinship %></p>
         <p><%= @family_member.description %></p></p>
-        <%= link_to "edit", edit_family_member_path, class: "btn btn-ghost" %>
-        <%= link_to "delete", destroy_family_members_path, method: :delete, data: {confirm: "Are you sure you want to delete this relative?" }, class: "btn btn-ghost"%>
+        <%= link_to "edit", edit_family_member_path, class: "btn btn-relatives" %>
+        <%= link_to "delete", destroy_family_members_path, method: :delete, data: {confirm: "Are you sure you want to delete this relative?" }, class: "btn btn-relatives"%>
         <%#(@family_member) %>
     </div>
   </div>
@@ -20,7 +20,7 @@
       <%#= f.association :family_member %>
       <%= f.input :start_date, class: "booking-inputs"%>
       <%= f.input :end_date, class: "booking-inputs"%>
-      <%= f.submit class: "btn btn-ghost"%>
+      <%= f.submit class: "btn btn-relatives"%>
       <% end %>
     </div>
   </div>

@@ -1,0 +1,13 @@
+.btn-relatives {
+  color: $light-green;
+  border: 1px solid $light-green;
+  padding: 5px 14px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-relatives:hover {
+  opacity: 1;
+}
