@@ -40,12 +40,12 @@ body {
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.featured-cards {
-  display: grid;
-  grid-gap: 18px;
-  margin: 18px;
-  width: 18rem;
-}
+// .featured-cards {
+//   display: grid;
+//   grid-gap: 18px;
+//   margin: 18px;
+//   width: 18rem;
+// }
 
 // Places search bar on top of Banner
 // .search-bar {
@@ -86,4 +86,47 @@ body {
 
 .search-bar {
   margin-top: 20px;
+}
+
+ // FEATURED CARDS GRID //
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
