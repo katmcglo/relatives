@@ -130,7 +130,7 @@ brother_one_img = URI.open("https://alecsoth.com/photography/media/pages/project
 brother_one = FamilyMember.new(
     name: "Bob Jones",
     age: 40,
-    description: "",
+    description: "Loves to go to McFit, Sonnenstudio and City Chicken. Broke up with his last girlfriend because she was hindering his gainz. Was named Berlin's Most Ineligible Bachelor 4 years in a row.",
     kinship: "Brother",
     user: dareos,
     city: "Berlin",
