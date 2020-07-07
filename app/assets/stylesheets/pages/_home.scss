@@ -17,13 +17,13 @@ body {
   margin-bottom: 23px;
 }
 
-.btn-primary {
-  background-color: #25817B;
-  border-radius: 10px;
-  &:hover {
-    background-color: #1B5954;
-  }
-}
+// .btn-primary {
+//   background-color: #25817B;
+//   border-radius: 10px;
+//   &:hover {
+//     background-color: #1B5954;
+//   }
+// }
 
 .form-control {
   border-radius: 10px;
@@ -43,36 +43,7 @@ body {
 //   width: 18rem;
 // }
 
-// Places search bar on top of Banner
-// .search-bar {
-//  position: absolute;
-// }
 
-// #carouselExampleSlidesOnly {
-//  position: relative;
-// }
-
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  height: 100vh;
-}
-
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-}
 
 .landing_headers {
   text-align: center;
@@ -81,7 +52,7 @@ body {
 }
 
 .search-bar {
-  margin-top: 20px;
+  margin-top: 16px; // needs refactoring
 }
 
  // FEATURED CARDS GRID //
