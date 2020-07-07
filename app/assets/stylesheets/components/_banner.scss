@@ -2,7 +2,7 @@
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-  height: 100vh;
+  height: 80vh;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://alecsoth.com/photography/media/pages/projects/sleeping-by-the-mississippi/4043520684-1551319080/2000_04zl0010-f.jpg);
 }
 
@@ -19,4 +19,9 @@
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.cont-text {
+  margin-left: 100px !important;
+  margin-top: 300px !important;
 }

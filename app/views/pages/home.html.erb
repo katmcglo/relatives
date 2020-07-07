@@ -1,39 +1,4 @@
+<%= render 'shared/featured-searches' %>
 <%= render 'shared/banner' %>
-<div class="landing_headers">
-  <h2>Rent the perfect Relative!</h2>
-</div>
-
-
-<div class="container d-flex flex-column" id="featured-relatives">
-  <div class="row justify-content-around">
-    <%= link_to family_members_path(description: "excellent") do %>
-    <div class="card" style="width: 18rem;">
-      <%= image_tag "dad.jpg", class: "card-img-top"%>
-        <div class="card-body">
-          <h5 class="card-title">Excellent Fathers</h5>
-          <p class="card-text">Emotionally available, good at operating a grill, great at jokes! </p>
-        </div>
-      <% end %>
-    </div>
-    <%= link_to family_members_path(description: "tough") do %>
-    <div class="card" style="width: 18rem;">
-      <%= image_tag "grandma.jpg", class: "card-img-top" %>
-      <div class="card-body">
-        <h5 class="card-title">Grandmas Who Take No Shit</h5>
-        <p class="card-text">Useless boyfriend? Hair getting too long? Our acerbic Grannies will tell you how it is.</p>
-      </div>
-      <% end %>
-    </div>
-    <%= link_to family_members_path(description: "menacing") do %>
-    <div class="card" style="width: 18rem;">
-      <%= image_tag "coolguy.jpg", class: "card-img-top" %>
-      <div class="card-body">
-        <h5 class="card-title">Tough Older Siblings</h5>
-        <p class="card-text">Hire one of our menacing teenagers to eradicate your child's bully the old fashioned way.</p>
-      </div>
-      <% end %>
-    </div>
-  </div>
-</div>
 <%= render 'shared/featured-relatives-grid' %>
 </div>

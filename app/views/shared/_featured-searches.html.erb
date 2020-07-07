@@ -1,0 +1,68 @@
+<!-- _featured-articles.html.erb -->
+  <div class="container-fluid tagline-box">
+    <div class="tagline">
+      <h3 style="letter-spacing: 0.8px;">
+        Who needs a family, when there's <strong style="color: #1B5954; letter-spacing: 0.8px;">Relatives!</strong>
+      </h3>
+  </div>
+</div>
+
+<div class="container-fluid d-flex flex-column" id="featured-searches">
+  <div class="row justify-content-around">
+    <%= link_to family_members_path(description: "excellent") do %>
+    <div class="card" style="width: 23rem;">
+      <%= image_tag "dad.jpg", class: "card-img-top"%>
+        <div class="card-body">
+          <h5 class="card-title">
+            Excellent Fathers
+          </h5>
+          <p class="card-text">
+            Emotionally available, good at operating a grill, great at jokes!
+          </p>
+        </div>
+      <% end %>
+    </div>
+
+    <%= link_to family_members_path(description: "tough") do %>
+    <div class="card" style="width: 23rem;">
+      <%= image_tag "grandma.jpg", class: "card-img-top" %>
+      <div class="card-body">
+        <h5 class="card-title">
+          Grandmas Who Take No Shit
+        </h5>
+        <p class="card-text">
+          Useless boyfriend? Hair getting too long? Our acerbic Grannies will tell you how it is.
+        </p>
+      </div>
+      <% end %>
+    </div>
+
+    <%= link_to family_members_path(description: "menacing") do %>
+    <div class="card" style="width: 23rem;">
+      <%= image_tag "coolguy.jpg", class: "card-img-top" %>
+      <div class="card-body">
+        <h5 class="card-title">
+          Tough Older Siblings
+        </h5>
+        <p class="card-text">
+          Hire one of our menacing teenagers to eradicate your child's bully the old fashioned way.
+        </p>
+      </div>
+      <% end %>
+    </div>
+
+    <%= link_to family_members_path(description: "menacing") do %>
+    <div class="card" style="width: 23rem;">
+      <%= image_tag "coolguy.jpg", class: "card-img-top" %>
+      <div class="card-body">
+        <h5 class="card-title">
+          Tough Older Siblings
+        </h5>
+        <p class="card-text">
+          Hire one of our menacing teenagers to eradicate your child's bully the old fashioned way.
+        </p>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
