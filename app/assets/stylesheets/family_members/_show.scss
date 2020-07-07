@@ -1,26 +1,19 @@
-.picture-card {
-  width: 300px;
-  height:300px;
+.booking-card {
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .booking-container {
   margin-top: 70px;
 }
 
-.new-booking-wrap {
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  padding: 8px 2em;
-  margin-top: 2em;
-}
-
-.booking-card {
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-
 .booking-inputs {
   font-family: Roboto;
+}
+
+
+.btn-edit {
+  margin-right: 10px;
 }
 
 .btn-flat {
@@ -53,4 +46,25 @@
 
 .card-img-top {
   padding: 10px 10px 0px 10px;
+}
+
+.family-member-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.family-member-create {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.new-booking-wrap {
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 8px 2em;
+}
+
+.picture-card {
+  width: 300px;
+  height:300px;
 }
