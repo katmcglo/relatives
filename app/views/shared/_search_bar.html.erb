@@ -1,9 +1,9 @@
 <div class="search-bar d-flex align-items-center justify-content-between" style="z-index: 1; margin-left: 60px;">
-  <div class="form-group row">
+  <div class="form-group row search-bar-box">
     <%= form_tag family_members_path, method: :get do %>
     <%= label :kinship, '' %>
     <%= select_tag :kinship, raw(
-      "<option value='Grandma'>Grandmas</option>
+        "<option value='Grandma'>Grandmas</option>
         <option value='Grandpa'>Grandpas</option>
         <option value='Uncle'>Uncles</option>
         <option value='Aunt'>Aunts</option>
@@ -12,10 +12,11 @@
         <option value='Sister'>Sisters</option>
         <option value='Father'>Fathers</option>
         <option value='Mother'>Mothers</option>"
-      ), class: "btn btn-ghost"%>
-      <%= label :query, "in" %>
-      <%= text_field_tag :query, value="Berlin" %>
-      <%= submit_tag "Search!", class: "btn btn-relatives" %>
-    <% end %>
-  </div>
+        ),
+        class: "btn btn-ghost"%>
+        <%= label :query, "in" %>
+        <%= text_field_tag :query, placeholder='Berlin' %>
+        <%= submit_tag "Search!", class: "btn btn-relatives btn-relatives-search-bar" %>
+      <% end %>
+    </div>
 </div>
