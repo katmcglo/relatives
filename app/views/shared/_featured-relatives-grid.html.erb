@@ -1,0 +1,16 @@
+<!-- _featured-relatives-grid.html.erb -->
+<div class="landing_headers" id="h2-featured-relatives"><h2>Featured Relatives</h2></div>
+
+
+<div class="container">
+  <div class="row justify-content-around">
+    <div class="cards">
+      <% @featured_relatives.each do |relative| %>
+          <%= link_to family_member_path(relative.id) do %>
+            <div class=" card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= cl_image_path relative.image.key, gravity: "face", crop: "fill" %>)">
+              <%= relative.name %>
+          </div>
+        <% end %>
+      <% end %>
+  </div>
+</div>
