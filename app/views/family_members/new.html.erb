@@ -1,5 +1,5 @@
-<div class="container d-flex justify-content-center">
-    <div class="column new-booking-wrap">
+<div class="container d-flex justify-content-center rel-margin-top">
+    <div class="column new-booking-wrap bg-white">
     <h1>Add a Family Member</h1>
     <%= simple_form_for @family_member do |form| %>
 
@@ -8,7 +8,7 @@
      <%= form.input :kinship, :collection => %w[Grandma Grandpa Uncle Aunt Cousin Brother Sister Father Mother], label: false  %>
      <%= form.input :city, placeholder: "City", label: false %>
      <%= form.input :description, placeholder: "Tell us about you!", label: false %>
-     <%= form.input :image, as: :file, placeholder: "Image of you:", label: false, class: "btn btn-relatives" %>
+     <%= form.input :image, as: :file, placeholder: "Image of you:", label: false %>
      <%= form.button :submit, "Add!", class: "btn btn-relatives" %>
     <% end %>
   </div>

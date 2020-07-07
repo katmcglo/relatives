@@ -1,6 +1,8 @@
-<div class="container d-flex booking-container " style="justify-content: space-between">
+<div class="container d-flex rel-margin-top" style="justify-content: space-between">
   <div class="card booking-card" style="width: 30rem;">
-    <%= cl_image_tag @family_member.image.key, class: "card-img-top" %>
+    <div style="width: 100%; overflow: hidden;" class="justify-content-center d-flex">
+      <%= cl_image_tag (@family_member.image.key), transformation= { width: 500, height: 250, gravity: :faces, crop: :fill } %>
+    </div>
     <div class="card-body">
       <p class="card-text"><h2><%= @family_member.name %></h2>
         <p><%= @family_member.age %></p>
