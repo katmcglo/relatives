@@ -1,16 +1,15 @@
-<div class="container align-text new-booking-wrap d-flex" style="align-items: center;">
-  <div class="new-booking column">
+<div class="container d-flex justify-content-center">
+    <div class="column new-booking-wrap">
     <h1>Add a Family Member</h1>
-    
     <%= simple_form_for @family_member do |form| %>
 
-     <%= form.input :name, label: "Name" %>
-     <%= form.input :age, label: "Age" %>
-     <%= form.input :kinship, :collection => %w[Grandma Grandpa Uncle Aunt Cousin Brother Sister Father Mother], label: "Kinship"  %>
-     <%= form.input :city, label: "City" %>
-     <%= form.input :description, label: "Tell us about you!" %>
-     <%= form.input :image, as: :file, label: "Image of you:" %>
-     <%= form.button :submit %>
+     <%= form.input :name, placeholder: "Name", label: false %>
+     <%= form.input :age, placeholder: "Age", label: false %>
+     <%= form.input :kinship, :collection => %w[Grandma Grandpa Uncle Aunt Cousin Brother Sister Father Mother], label: false  %>
+     <%= form.input :city, placeholder: "City", label: false %>
+     <%= form.input :description, placeholder: "Tell us about you!", label: false %>
+     <%= form.input :image, as: :file, placeholder: "Image of you:", label: false, class: "btn btn-relatives" %>
+     <%= form.button :submit, "Add!", class: "btn btn-relatives" %>
     <% end %>
   </div>
 </div>
