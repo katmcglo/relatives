@@ -2,14 +2,21 @@ class FamilyMembersController < ApplicationController
   # skip_before_action :authenticate_user!, only: [:index]
 
   def index
+    @city_param = params[:query]
+    @kinship_param = params[:kinship]
+    @description_param = params[:description]
     if params[:query].present?
       @family_members = FamilyMember.search_by_city(params[:query]).search_by_kinship(params[:kinship])
+      @print_param = "You are viewing: #{@kinship_param.pluralize} in #{@city_param}!"
     elsif params[:description].present?
       @family_members = FamilyMember.where("description ILIKE ?", "%#{params[:description]}%")
+      @print_param = "You are viewing all #{@description_param} #{@family_members.first.kinship.pluralize}!"
     elsif params[:kinship].present?
       @family_members = FamilyMember.search_by_kinship(params[:kinship])
+      @print_param = "You are viewing: #{@kinship_param.pluralize}!"
     else
       @family_members = FamilyMember.all
+      @print_param = "You are viewing all Relatives!"
     end
   end
 
