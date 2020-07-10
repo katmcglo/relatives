@@ -142,7 +142,7 @@ brother_two_img = URI.open("https://alecsoth.com/photography/media/pages/project
 brother_two = FamilyMember.new(
     name: "Jarryd Rankin",
     age: 26,
-    description: "",
+    description: "Slightly menacing, but kind at heart. Will let you borrow DVDs from his collection of WWE Smackdown 1994-2016.",
     kinship: "Brother",
     user: dareos,
     city: "Munich",
@@ -154,7 +154,7 @@ brother_three_img = URI.open("https://alecsoth.com/photography/media/pages/proje
 brother_three = FamilyMember.new(
     name: "Jonathan Mole",
     age: 28,
-    description: "",
+    description: "Just a simple guy, full of fraternal love.",
     kinship: "Brother",
     user: dareos,
     city: "Berlin",
@@ -168,8 +168,8 @@ mother_one_img = URI.open("https://alecsoth.com/photography/media/pages/projects
 mother_one = FamilyMember.new(
     name: "Belinda Rhodes",
     age: 40,
-    description: "",
-    kinship: "Mother",
+    description: "Loves a glass of bubbly on a Tuesday. Has a 'Live, Love, Wine' tattoo on her shoulderblade.",
+    kinship: "Aunt",
     user: dareos,
     city: "Munich",
 )
