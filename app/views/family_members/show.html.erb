@@ -22,8 +22,8 @@
 
       <%= simple_form_for [@family_member, @booking] do |f|%>
       <%#= f.association :family_member %>
-      <%= f.input :start_date, class: "booking-inputs"%>
-      <%= f.input :end_date, class: "booking-inputs"%>
+      <%= f.input :start_date, as: :date, start_year: Date.today.year, class: "booking-inputs"%>
+      <%= f.input :end_date, as: :date, start_year: Date.today.year, class: "booking-inputs"%>
       <div class="family-member-btns">
         <%= f.submit class: "btn btn-relatives"%>
       </div>
