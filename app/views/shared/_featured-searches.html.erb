@@ -1,6 +1,19 @@
 <!-- _featured-articles.html.erb -->
+<<<<<<< HEAD
 <div class="container-fluid d-flex" id="featured-searches">
   <div class="row d-flex justify-content-between">
+=======
+  <div class="container-fluid tagline-box">
+    <div class="tagline">
+      <h3 style="letter-spacing: 0.8px;">
+        Who needs a family, when there's <%= link_to family_members_path do %><strong style="letter-spacing: 0.8px; color: #1B5954;">  Relatives!</strong> <% end %>
+      </h3>
+  </div>
+</div>
+
+<div class="container-fluid d-flex flex-column" id="featured-searches">
+  <div class="row justify-content-around">
+>>>>>>> 5679d06744f76db1bf48c6b83f82548676ab3972
     <%= link_to family_members_path(description: "excellent") do %>
     <div class="card col-12  col-md-4">
       <%= image_tag "dad.jpg", class: "card-img-top"%>
@@ -37,7 +50,25 @@
           Tough Older Siblings
         </h5>
         <p class="card-text">
+<<<<<<< HEAD
           Eradicate your child's bully the old fashioned way.
+=======
+          Hire one of our menacing teenagers to eradicate your child's bully the old fashioned way.
+        </p>
+      </div>
+      <% end %>
+    </div>
+
+    <%= link_to family_members_path(description: "wine") do %>
+    <div class="card" style="width: 23rem;">
+      <%= image_tag "wine-aunt.jpg", class: "card-img-top" %>
+      <div class="card-body">
+        <h5 class="card-title">
+          Mysterious Wine Aunts
+        </h5>
+        <p class="card-text">
+          Full of fascinating stories and questionable advice. Our Wine Aunts will add some extra flair to your dinner parties.
+>>>>>>> 5679d06744f76db1bf48c6b83f82548676ab3972
         </p>
       </div>
       <% end %>
