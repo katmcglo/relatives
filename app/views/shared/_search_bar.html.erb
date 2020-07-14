@@ -1,6 +1,5 @@
-<div class="d-flex justify-content-center">
-<div class="search-bar d-flex align-items-center" style="z-index: 1;">
-  <div class="form-group row search-bar-box justify-content-center">
+<div class="search-bar d-flex align-items-center justify-content-between" style="z-index: 1; margin-left: 60px;">
+  <div class="form-group row search-bar-box">
     <%= form_tag family_members_path, method: :get do %>
     <%= label :kinship, '' %>
     <%= select_tag :kinship, raw(
@@ -15,10 +14,9 @@
         <option value='Mother'>Mothers</option>"
         ),
         class: "btn btn-ghost"%>
-        <%= label :query, "in", class: "mr-1 ml-1" %>
-        <%= text_field_tag :query, placeholder='Berlin', class: "mr-1" %>
+        <%= label :query, "   in   " %>
+        <%= text_field_tag :query, placeholder='Berlin' %>
         <%= submit_tag "Search!", class: "btn btn-relatives btn-relatives-search-bar" %>
       <% end %>
     </div>
-</div>
 </div>
