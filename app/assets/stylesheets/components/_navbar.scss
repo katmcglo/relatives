@@ -1,4 +1,13 @@
+.collapse {
+  margin-right: 15px;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
 .navbar {
+  display: flex;
   position: sticky;
   top: 0;
   z-index: 2;
