@@ -91,7 +91,7 @@ father_one_img = URI.open("https://alecsoth.com/photography/media/pages/projects
 father_one = FamilyMember.new(
     name: "Marco Timón",
     age: 52,
-    description: "A loving, excellent father. Good at grilling hamburgers, good at making Dad jokes. Will try and one up your whilst talking about his children's achievements.",
+    description: "A loving, excellent father. Good at grilling hamburgers, good at making Dad jokes. Will try and one up you whilst talking about his children's achievements.",
     kinship: "Father",
     user: dareos,
     city: "Munich",
@@ -180,7 +180,7 @@ mother_two_img = URI.open("https://alecsoth.com/photography/media/pages/projects
 mother_two = FamilyMember.new(
     name: "Lucretia Moreton",
     age: 43,
-    description: "",
+    description: "Quirky Goth Mom. Loves making mosaics, crochet, spiders. Lives in a polyamorous pagan lesbian commune with her 14 girlfriends.",
     kinship: "Mother",
     user: dareos,
     city: "Berlin",
@@ -190,9 +190,9 @@ mother_two.save!
 
 mother_three_img = URI.open("https://alecsoth.com/photography/media/pages/projects/niagara/4092536397-1551319080/2005_5zl0069_f.jpg")
 mother_three = FamilyMember.new(
-    name: "Becky Boo",
+    name: "Becky Button",
     age: 20,
-    description: "",
+    description: "Had a bit of a difficult start in life and has great empathy and kindness to show for it. A lovely young Mom who can give both motherly and sisterly advice.",
     kinship: "Mother",
     user: dareos,
     city: "Munich",
@@ -205,8 +205,8 @@ puts "-> Mothers created"
 sister_one_img = URI.open("https://alecsoth.com/photography/media/pages/projects/i-know-how-furiously-your-heart-is-beating/3708819925-1551369195/2018_05zl0062.jpg")
 sister_one = FamilyMember.new(
     name: "Paige McCartney",
-    age: 16,
-    description: "",
+    age: 21,
+    description: "A performing arts savant with a bit of a wild side. Booking Paige to be your sister will instantly give you slightly more social clout.",
     kinship: "Sister",
     user: dareos,
     city: "Berlin",
@@ -216,7 +216,7 @@ sister_one.save!
 
 sister_two_img = URI.open("https://alecsoth.com/photography/media/pages/projects/niagara/3284371776-1551319080/2005_05zl0090_f.jpg")
 sister_two = FamilyMember.new(
-    name: "Paige McCartney",
+    name: "Peggy Sue Waldorf",
     age: 16,
     description: "",
     kinship: "Sister",
