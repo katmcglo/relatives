@@ -1,5 +1,5 @@
-<div class="container d-flex rel-margin-top" style="justify-content: space-between">
-  <div class="card booking-card" style="width: 30rem;">
+<div class="container rel-margin-top make-flex" style="justify-content: space-between">
+  <div class="booking-card card-height" style="width: 30rem;">
     <div style="width: 100%; overflow: hidden;" class="justify-content-center d-flex">
       <%= cl_image_tag (@family_member.image.key), transformation= { width: 500, height: 250, gravity: :faces, crop: :fill } %>
     </div>
@@ -16,18 +16,20 @@
     </div>
   </div>
 
-  <div class="new-booking-wrap bg-white d-flex rel-margin-top" style="align-items: center;">
-    <div class="new-booking column">
-      <h1>Create New Booking</h1>
+  <div class="card-height">
+    <div class="new-booking-wrap bg-white d-flex" style="align-items: center;">
+      <div class="new-booking column">
+        <h1>Create New Booking</h1>
 
-      <%= simple_form_for [@family_member, @booking] do |f|%>
-      <%#= f.association :family_member %>
-      <%= f.input :start_date, as: :date, start_year: Date.today.year, class: "booking-inputs"%>
-      <%= f.input :end_date, as: :date, start_year: Date.today.year, class: "booking-inputs"%>
-      <div class="family-member-btns">
-        <%= f.submit class: "btn btn-relatives"%>
+        <%= simple_form_for [@family_member, @booking] do |f|%>
+        <%#= f.association :family_member %>
+        <%= f.input :start_date, as: :date, start_year: Date.today.year, class: "booking-inputs"%>
+        <%= f.input :end_date, as: :date, start_year: Date.today.year, class: "booking-inputs"%>
+        <div class="family-member-btns">
+          <%= f.submit class: "btn btn-relatives"%>
+        </div>
+        <% end %>
       </div>
-      <% end %>
     </div>
   </div>
 </div>

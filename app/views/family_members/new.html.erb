@@ -8,8 +8,10 @@
      <%= form.input :kinship, :collection => %w[Grandma Grandpa Uncle Aunt Cousin Brother Sister Father Mother], label: false  %>
      <%= form.input :city, placeholder: "City", label: false %>
      <%= form.input :description, placeholder: "Tell us about you!", label: false %>
-     <%= form.input :image, as: :file, placeholder: "Image of you:", label: false %>
-     <%= form.button :submit, "Add!", class: "btn btn-relatives" %>
+     <div style="display: flex;">
+       <%= form.input :image, as: :file, placeholder: "Image of you:", label: false %>
+       <%= form.button :submit, "Add!", class: "btn btn-relatives" %>
+     </div>
     <% end %>
   </div>
 </div>

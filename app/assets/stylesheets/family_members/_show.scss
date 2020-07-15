@@ -1,10 +1,21 @@
 .booking-card {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  overflow: hidden;
+  height: 570px;
+  width: auto;
 }
 
 .btn-edit {
   margin-right: 10px;
+}
+
+.card-height {
+  height: 570px;
+}
+
+.make-flex {
+  display: flex;
 }
 
 .family-member-btns {
@@ -13,8 +24,21 @@
 }
 
 .new-booking-wrap {
+  align-items: center;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   height: 510px;
-  padding: 0px 100px 0px 100px;
+  padding: 50px 100px;
 }
+
+@media only screen and (max-width: 750px) {
+  .make-flex {
+    display: block;
+  }
+
+  .new-booking-wrap {
+    margin-top: 30px;
+    padding: 0px 80px;
+  }
+}
+
