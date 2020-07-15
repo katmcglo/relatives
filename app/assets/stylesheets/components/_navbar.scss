@@ -35,3 +35,14 @@
   box-shadow: 1px;
   font-size: 17px;
 }
+
+.tagline {
+  // width: auto;
+  // height: auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .tagline {
+    display: none;
+  }
+}
