@@ -29,7 +29,7 @@ class FamilyMembersController < ApplicationController
     @family_member = FamilyMember.new(family_member_params)
     # authorize @family_member
     @family_member.user = current_user
-    if @family_member.save!
+    if @family_member.save
       redirect_to family_member_path(@family_member)
     else
       render "new"
