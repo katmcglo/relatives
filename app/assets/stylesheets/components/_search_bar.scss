@@ -20,3 +20,10 @@
   background-color: white;
   width: 800px;
 }
+
+@media only screen and (max-width: 750px) {
+ .search-bar-box {
+  margin-top: 50px;
+  width: 450px;
+ }
+}
