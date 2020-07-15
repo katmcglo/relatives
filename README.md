@@ -5,20 +5,17 @@ RELATIVES
 
 This is a mockup project, with basic CRUD functionalities, a functioning PG search bar and HTML/SCSS design.
 
-Built With:
+BUILT WITH:
 Ruby on Rails
 HTML/SCSS
 PostgreSQL
 HEROKU
 
-Devs:
+DEVS:
 Kat McGlone - Lead Dev
 Dareos Khalili
 Fritz Bunse
 Ella Luna von Müller
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
+ACKGNOWLEDGEMENTS
 All pictures for the seeds taken from the master portraitist Alec Soth whom Dareos loves and hopes he won't sue us <3 
