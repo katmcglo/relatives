@@ -17,5 +17,5 @@ Dareos Khalili,
 Fritz Bunse,
 Ella Luna von Müller.
 
-#### ACKGNOWLEDGEMENTS
+#### ACKNOWLEDGEMENTS
 All pictures for the seeds taken from the master portraitist Alec Soth whom Dareos loves and hopes he won't sue us <3 
