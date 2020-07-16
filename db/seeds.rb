@@ -231,7 +231,7 @@ grandpa_one_img = URI.open("https://alecsoth.com/photography/media/pages/project
 grandpa_one = FamilyMember.new(
     name: "Mark Moses",
     age: 91,
-    description: "Mark is a shrewd fellow who will whip your butt at Scrabble.",
+    description: "Mark is a shrewd fellow who will whip your butt at Scrabble with a triple-word-score.",
     kinship: "Grandpa",
     user: dareos,
     city: "Berlin",
