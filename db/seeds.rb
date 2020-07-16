@@ -218,7 +218,7 @@ sister_two_img = URI.open("https://alecsoth.com/photography/media/pages/projects
 sister_two = FamilyMember.new(
     name: "Peggy Sue Waldorf",
     age: 16,
-    description: "",
+    description: "Peggy Sue is a rambunctious young lass with a lust for life! ",
     kinship: "Sister",
     user: dareos,
     city: "Munich",
@@ -231,7 +231,7 @@ grandpa_one_img = URI.open("https://alecsoth.com/photography/media/pages/project
 grandpa_one = FamilyMember.new(
     name: "Mark Moses",
     age: 91,
-    description: "",
+    description: "Mark is a shrewd fellow who will whip your butt at Scrabble.",
     kinship: "Grandpa",
     user: dareos,
     city: "Berlin",
@@ -244,7 +244,7 @@ grandpa_two_img = URI.open("http://larrysultan.com/archives/wp-content/uploads/2
 grandpa_two = FamilyMember.new(
     name: "Barry Sultan",
     age: 78,
-    description: "",
+    description: "Don't cross Barry.",
     kinship: "Grandpa",
     user: dareos,
     city: "Munich",
@@ -257,7 +257,7 @@ grandpa_three_img = URI.open("http://larrysultan.com/archives/wp-content/uploads
 grandpa_three = FamilyMember.new(
     name: "Larry Hagman",
     age: 86,
-    description: "",
+    description: "Larry has a wonderful passion for gardening, and a deep running vendetta against Sheryl across the road who once took a cutting of his hydrangeas.",
     kinship: "Grandpa",
     user: dareos,
     city: "Berlin",
