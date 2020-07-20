@@ -244,7 +244,7 @@ grandpa_two_img = URI.open("http://larrysultan.com/archives/wp-content/uploads/2
 grandpa_two = FamilyMember.new(
     name: "Barry Sultan",
     age: 78,
-    description: "Don't cross Barry.",
+    description: "Barry is a good guy. Don't cross Barry.",
     kinship: "Grandpa",
     user: dareos,
     city: "Munich",
