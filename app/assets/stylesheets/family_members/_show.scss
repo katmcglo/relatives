@@ -38,7 +38,16 @@
 
   .new-booking-wrap {
     margin-top: 30px;
-    padding: 0px 80px;
+    padding: 0px 0px;
+    width: 60vh;
+    margin-right: 0px;
+    border-radius: 0px;
   }
+
+  .booking-card {
+  width: 60vh !important;
+  height: auto;
+}
+
 }
 
